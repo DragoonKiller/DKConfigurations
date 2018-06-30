@@ -1,0 +1,22 @@
+{
+    "name": "dragoonkiller",
+    "displayName": "DragoonKiller Personal Theme",
+    "description": "DragoonKiller's personal theme",
+    "version": "0.0.1",
+    "publisher": "dragoonkiller",
+    "engines": {
+        "vscode": "^1.18.0"
+    },
+    "categories": [
+        "Themes"
+    ],
+    "contributes": {
+        "themes": [
+            {
+                "label": "DragoonKiller personal",
+                "uiTheme": "vs-dark",
+                "path": "./themes/DragoonKiller-color-theme.json"
+            }
+        ]
+    }
+}

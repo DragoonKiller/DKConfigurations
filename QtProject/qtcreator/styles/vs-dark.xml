@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<style-scheme version="1.0" name="Visual Studio Dark">
+  <style name="Text" foreground="#cde8ff" background="#1f1f1f"/>
+  <style name="Link" foreground="#6b89dd"/>
+  <style name="Selection" background="#264f78"/>
+  <style name="LineNumber" foreground="#2b91af" background="#2f2f2f"/>
+  <style name="SearchResult" background="#3b424c"/>
+  <style name="SearchScope"/>
+  <style name="Parentheses" foreground="#ececec"/>
+  <style name="ParenthesesMismatch"/>
+  <style name="CurrentLine" background="#4b4b4b"/>
+  <style name="CurrentLineNumber" foreground="#4c71f8" bold="true"/>
+  <style name="Occurrences"/>
+  <style name="Occurrences.Unused"/>
+  <style name="Occurrences.Rename"/>
+  <style name="Number" foreground="#80b7ff"/>
+  <style name="String" foreground="#69b831"/>
+  <style name="Type" foreground="#60b0ff"/>
+  <style name="Local"/>
+  <style name="Field"/>
+  <style name="Static" foreground="#36dfbb"/>
+  <style name="VirtualMethod" foreground="#d3da47"/>
+  <style name="Function" foreground="#e3dc6d"/>
+  <style name="Keyword" foreground="#c3791d"/>
+  <style name="PrimitiveType" foreground="#ab66ff"/>
+  <style name="Operator" foreground="#d3d3d3"/>
+  <style name="Preprocessor" foreground="#76a1c1"/>
+  <style name="Label" foreground="#e10000"/>
+  <style name="Comment" foreground="#94a693"/>
+  <style name="Doxygen.Comment" foreground="#5078ac"/>
+  <style name="Doxygen.Tag" foreground="#6042b8" bold="true"/>
+  <style name="VisualWhitespace"/>
+  <style name="QmlLocalId" italic="true"/>
+  <style name="QmlExternalId" italic="true"/>
+  <style name="QmlTypeId"/>
+  <style name="QmlRootObjectProperty" italic="true"/>
+  <style name="QmlScopeObjectProperty" italic="true"/>
+  <style name="QmlExternalObjectProperty" italic="true"/>
+  <style name="JsScopeVar" italic="true"/>
+  <style name="JsImportVar" italic="true"/>
+  <style name="JsGlobalVar" italic="true"/>
+  <style name="QmlStateName" italic="true"/>
+  <style name="Binding"/>
+  <style name="DisabledCode"/>
+  <style name="AddedLine"/>
+  <style name="RemovedLine"/>
+  <style name="DiffFile"/>
+  <style name="DiffLocation"/>
+  <style name="DiffFileLine"/>
+  <style name="DiffContextLine"/>
+  <style name="DiffSourceLine"/>
+  <style name="DiffSourceChar"/>
+  <style name="DiffDestLine"/>
+  <style name="DiffDestChar"/>
+  <style name="LogChangeLine" foreground="#c00000"/>
+  <style name="LastStyleSentinel"/>
+</style-scheme>
