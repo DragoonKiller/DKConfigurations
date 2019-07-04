@@ -1,0 +1,58 @@
+{
+    "editor.trimAutoWhitespace": false,
+    "workbench.activityBar.visible": true,
+    "window.enableMenuBarMnemonics": false,
+    "window.menuBarVisibility": "toggle",
+    "editor.fontFamily": "'Liberation Mono', monospace, 'Courier New'",
+    "editor.fontSize": 15,
+    "window.zoomLevel": 0,
+    "workbench.colorTheme": "DragoonKiller personal",
+    "editor.codeLens": false,
+    "editor.autoClosingBrackets": false,
+    "editor.wordWrap": "off",
+    "editor.scrollBeyondLastLine": true,
+    "explorer.confirmDragAndDrop": false,
+    "explorer.confirmDelete": false,
+    "files.insertFinalNewline": true,
+    "files.trimFinalNewlines": true,
+    "terminal.integrated.shell.windows": "C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\powershell.exe",
+    "editor.dragAndDrop": false,
+    "python.linting.pylintEnabled": false,
+    
+    "LineCount.comment": [
+        {
+            "ext": [
+                "c",
+                "cpp",
+                "cs",
+                "java"
+            ],
+            "separator": {
+                "linecomment": "//",
+                "linetol": false,
+                "blockstart": "/*",
+                "blockend": "*/",
+                "blocktol": false,
+                "string": {
+                    "doublequotes": true,
+                    "singlequotes": true
+                }
+            }
+        }
+    ],
+    "LineCount.output": {
+        "txt": true,
+        "json": true,
+        "csv": false,
+        "md": false,
+        "outdir": "./.vscode/LineCount/"
+    },
+    "terminal.external.linuxExec": "gnome-terminal",
+    "markdown-pdf.displayHeaderFooter": false,
+    "markdown-pdf.scale": 0.9,
+    "git.path": "/usr/bin/git",
+    
+    "csharp.suppressDotnetRestoreNotification": true,
+    "csharp.suppressDotnetInstallWarning": true,
+    "workbench.iconTheme": "vscode-icons",
+}

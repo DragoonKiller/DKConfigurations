@@ -1,0 +1,60 @@
+//Maya Preference 2018 (Release 1)
+//
+//
+
+//
+// The hotkey set
+//
+hotkeySet -source "Maya_Default" -current DragoonKiller;
+//
+// The hotkey contexts and hotkeys
+//
+hotkey -keyShortcut "2" -ctl -name ("ConvertSelectionToEdgesNameCommand");
+hotkey -keyShortcut "1" -ctl -name ("ConvertSelectionToVerticesNameCommand");
+hotkey -keyShortcut "3" -name ("SelectEdgeMaskNameCommand");
+hotkey -keyShortcut "F8" -name ("");
+hotkey -keyShortcut "2" -name ("SelectVertexMaskNameCommand");
+hotkey -keyShortcut "F10" -ctl -name ("");
+hotkey -keyShortcut "F9" -ctl -name ("");
+hotkey -keyShortcut "1" -name ("SelectToggleModeNameCommand");
+hotkey -keyShortcut "F11" -ctl -name ("");
+hotkey -keyShortcut "e" -name ("RotateToolMarkingMenuNameCommand");
+hotkey -keyShortcut "e" -releaseName ("");
+hotkey -keyShortcut "3" -ctl -name ("ConvertSelectionToFacesNameCommand");
+hotkey -keyShortcut "F12" -alt -name ("");
+hotkey -keyShortcut "F12" -name ("");
+hotkey -keyShortcut "`" -releaseName ("");
+hotkey -keyShortcut "`" -ctl -name ("SelectMeshUVShellNameCommand");
+hotkey -keyShortcut "`" -name ("SelectUVMaskNameCommand");
+hotkey -keyShortcut "F11" -name ("");
+hotkey -keyShortcut "r" -releaseName ("");
+hotkey -keyShortcut "r" -name ("ScaleToolMarkingMenuNameCommand");
+hotkey -keyShortcut "q" -name ("SelectToolMarkingMenuNameCommand");
+hotkey -keyShortcut "q" -releaseName ("");
+hotkey -keyShortcut "4" -name ("SelectFacetMaskNameCommand");
+hotkey -keyShortcut "5" -ctl -name ("DisplayWireframeNameCommand");
+hotkey -keyShortcut "F10" -name ("");
+hotkey -keyShortcut "F9" -name ("");
+hotkey -keyShortcut "w" -releaseName ("");
+hotkey -keyShortcut "w" -name ("TranslateToolMarkingMenuNameCommand");
+hotkeyCtx -type "Editor" -addClient "hyperShadePanel";
+hotkeyCtx -type "Editor" -addClient "outlinerPanel";
+hotkeyCtx -type "Editor" -addClient "posePanel";
+hotkeyCtx -type "Editor" -addClient "profilerPanel";
+hotkeyCtx -type "Editor" -addClient "shapePanel";
+hotkeyCtx -type "Editor" -addClient "graphEditor";
+hotkeyCtx -type "Editor" -addClient "hyperGraphPanel";
+hotkeyCtx -type "Editor" -addClient "nodeEditorPanel";
+hotkeyCtx -type "Editor" -addClient "polyTexturePlacementPanel";
+hotkey -keyShortcut "w" -name ("MoveUVToolNameCommand");
+hotkey -keyShortcut "e" -name ("ScaleUVToolNameCommand");
+hotkey -keyShortcut "q" -name ("") -ctxClient "polyTexturePlacementPanel";
+hotkey -keyShortcut "r" -name ("RotateUVToolNameCommand");
+hotkeyCtx -type "Editor" -addClient "timeEditorPanel";
+hotkeyCtx -type "Tool" -addClient "texCutContext";
+hotkeyCtx -type "Tool" -addClient "SymmetrizeUVBrush";
+hotkeyCtx -type "Tool" -addClient "sculptMeshCache";
+hotkeyCtx -type "Tool" -addClient "texSculptCacheContext";
+hotkeyCtx -type "Tool" -addClient "polyCutUV";
+hotkeyCtx -type "Tool" -addClient "xgmIGBrush";
+hotkeyCtx -type "Tool" -addClient "Unfold3DBrush";

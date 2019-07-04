@@ -1,0 +1,100 @@
+//Maya Preference 2018 (Release 1)
+//
+//
+
+nameCommand
+	-annotation "DisplayWireframeNameCommand"
+	-sourceType "mel"
+	-command ("DisplayWireframe")
+	DisplayWireframeNameCommand;
+
+nameCommand
+	-annotation "SelectVertexMaskNameCommand"
+	-sourceType "mel"
+	-command ("SelectVertexMask")
+	SelectVertexMaskNameCommand;
+
+nameCommand
+	-annotation "SelectEdgeMaskNameCommand"
+	-sourceType "mel"
+	-command ("SelectEdgeMask")
+	SelectEdgeMaskNameCommand;
+
+nameCommand
+	-annotation "SelectFacetMaskNameCommand"
+	-sourceType "mel"
+	-command ("SelectFacetMask")
+	SelectFacetMaskNameCommand;
+
+nameCommand
+	-annotation "SelectMeshUVShellNameCommand"
+	-sourceType "mel"
+	-command ("SelectMeshUVShell")
+	SelectMeshUVShellNameCommand;
+
+nameCommand
+	-annotation "SelectUVMaskNameCommand"
+	-sourceType "mel"
+	-command ("SelectUVMask")
+	SelectUVMaskNameCommand;
+
+nameCommand
+	-annotation "SelectToggleModeNameCommand"
+	-sourceType "mel"
+	-command ("SelectToggleMode")
+	SelectToggleModeNameCommand;
+
+nameCommand
+	-annotation "MoveUVToolNameCommand"
+	-sourceType "mel"
+	-command ("MoveUVTool")
+	MoveUVToolNameCommand;
+
+nameCommand
+	-annotation "RotateUVToolNameCommand"
+	-sourceType "mel"
+	-command ("RotateUVTool")
+	RotateUVToolNameCommand;
+
+nameCommand
+	-annotation "ScaleUVToolNameCommand"
+	-sourceType "mel"
+	-command ("ScaleUVTool")
+	ScaleUVToolNameCommand;
+
+nameCommand
+	-annotation "SelectToolOptionsMarkingMenuNameCommand"
+	-sourceType "mel"
+	-command ("SelectToolOptionsMarkingMenu")
+	SelectToolOptionsMarkingMenuNameCommand;
+
+nameCommand
+	-annotation "SelectToolOptionsMarkingMenuPopDownNameCommand"
+	-sourceType "mel"
+	-command ("SelectToolOptionsMarkingMenuPopDown")
+	SelectToolOptionsMarkingMenuPopDownNameCommand;
+
+nameCommand
+	-annotation "TranslateToolMarkingMenuNameCommand"
+	-sourceType "mel"
+	-command ("TranslateToolMarkingMenu")
+	TranslateToolMarkingMenuNameCommand;
+
+nameCommand
+	-annotation "RotateToolMarkingMenuNameCommand"
+	-sourceType "mel"
+	-command ("RotateToolMarkingMenu")
+	RotateToolMarkingMenuNameCommand;
+
+nameCommand
+	-annotation "ScaleToolMarkingMenuNameCommand"
+	-sourceType "mel"
+	-command ("ScaleToolMarkingMenu")
+	ScaleToolMarkingMenuNameCommand;
+
+nameCommand
+	-annotation "SelectToolMarkingMenuNameCommand"
+	-sourceType "mel"
+	-command ("SelectToolMarkingMenu")
+	SelectToolMarkingMenuNameCommand;
+

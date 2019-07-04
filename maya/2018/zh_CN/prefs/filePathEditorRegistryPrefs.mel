@@ -1,0 +1,7 @@
+//Maya Preference 2018 (Release 1)
+//
+//
+filePathEditor -registerType "audio.filename" -typeLabel "音频" ;
+filePathEditor -registerType "file" -typeLabel "纹理" ;
+filePathEditor -registerType "imagePlane.imageName" -typeLabel "图像平面" ;
+filePathEditor -registerType "reference" -typeLabel "引用" ;

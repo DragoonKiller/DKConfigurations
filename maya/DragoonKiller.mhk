@@ -1,0 +1,89 @@
+//Maya Preference 2018 (Release 1)
+//
+//
+
+//
+// The runtime commands referenced by the hotkeys
+//
+//
+// The name commands referenced by the hotkeys
+//
+nameCommand
+	-annotation "DisplayWireframeNameCommand"
+	-sourceType "mel"
+	-command ("DisplayWireframe")
+	DisplayWireframeNameCommand;
+
+nameCommand
+	-annotation "SelectVertexMaskNameCommand"
+	-sourceType "mel"
+	-command ("SelectVertexMask")
+	SelectVertexMaskNameCommand;
+
+nameCommand
+	-annotation "SelectEdgeMaskNameCommand"
+	-sourceType "mel"
+	-command ("SelectEdgeMask")
+	SelectEdgeMaskNameCommand;
+
+nameCommand
+	-annotation "SelectFacetMaskNameCommand"
+	-sourceType "mel"
+	-command ("SelectFacetMask")
+	SelectFacetMaskNameCommand;
+
+nameCommand
+	-annotation "SelectToggleModeNameCommand"
+	-sourceType "mel"
+	-command ("SelectToggleMode")
+	SelectToggleModeNameCommand;
+
+nameCommand
+	-annotation "ConvertSelectionToVertexPerimeterNameCommand"
+	-sourceType "mel"
+	-command ("ConvertSelectionToVertexPerimeter")
+	ConvertSelectionToVertexPerimeterNameCommand;
+
+//
+// The user hotkeys
+//
+//
+// The hotkey set
+//
+hotkeySet -source "Maya_Default" -current DragoonKiller;
+//
+// The hotkey contexts and hotkeys
+//
+hotkey -keyShortcut "F11" -name ("");
+hotkey -keyShortcut "F10" -name ("");
+hotkey -keyShortcut "F8" -name ("");
+hotkey -keyShortcut "F9" -ctl -name ("");
+hotkey -keyShortcut "t" -name ("ConvertSelectionToVertexPerimeterNameCommand");
+hotkey -keyShortcut "5" -ctl -name ("DisplayWireframeNameCommand");
+hotkey -keyShortcut "1" -name ("SelectVertexMaskNameCommand");
+hotkey -keyShortcut "3" -name ("SelectFacetMaskNameCommand");
+hotkey -keyShortcut "1" -ctl -name ("ConvertSelectionToVerticesNameCommand");
+hotkey -keyShortcut "4" -name ("SelectToggleModeNameCommand");
+hotkey -keyShortcut "F10" -ctl -name ("");
+hotkey -keyShortcut "F11" -ctl -name ("");
+hotkey -keyShortcut "2" -name ("SelectEdgeMaskNameCommand");
+hotkey -keyShortcut "3" -ctl -name ("ConvertSelectionToFacesNameCommand");
+hotkey -keyShortcut "F9" -name ("");
+hotkey -keyShortcut "2" -ctl -name ("ConvertSelectionToEdgesNameCommand");
+hotkeyCtx -type "Editor" -addClient "hyperShadePanel";
+hotkeyCtx -type "Editor" -addClient "outlinerPanel";
+hotkeyCtx -type "Editor" -addClient "posePanel";
+hotkeyCtx -type "Editor" -addClient "profilerPanel";
+hotkeyCtx -type "Editor" -addClient "shapePanel";
+hotkeyCtx -type "Editor" -addClient "graphEditor";
+hotkeyCtx -type "Editor" -addClient "hyperGraphPanel";
+hotkeyCtx -type "Editor" -addClient "nodeEditorPanel";
+hotkeyCtx -type "Editor" -addClient "polyTexturePlacementPanel";
+hotkeyCtx -type "Editor" -addClient "timeEditorPanel";
+hotkeyCtx -type "Tool" -addClient "texCutContext";
+hotkeyCtx -type "Tool" -addClient "SymmetrizeUVBrush";
+hotkeyCtx -type "Tool" -addClient "sculptMeshCache";
+hotkeyCtx -type "Tool" -addClient "texSculptCacheContext";
+hotkeyCtx -type "Tool" -addClient "polyCutUV";
+hotkeyCtx -type "Tool" -addClient "xgmIGBrush";
+hotkeyCtx -type "Tool" -addClient "Unfold3DBrush";
